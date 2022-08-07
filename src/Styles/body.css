@@ -1,0 +1,251 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.bodyContainer{
+    background-color: aliceblue;
+    padding: 10%;
+    margin: auto;
+  width: 50%;
+  flex: 50%;
+  
+}
+.imageContainer{
+    
+    flex:50%;
+}
+.imageD{
+    width:70%;
+    float:left;
+}
+.btn{
+    background-color: rgb(27, 95, 255);
+    border-radius: 5px;
+    border-style: groove;
+    border-color: azure;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: white;
+    transition: 0.3s;
+   
+}
+.btn:hover{
+    cursor: pointer;
+   
+    background-color: rgb(71, 112, 206);
+}
+
+.teamGDSC{
+    margin-top: 4%;
+    background-color: #F9F9F9;
+}
+.teamGDSC h1{
+    padding-top: 5%;
+    color: #413F42;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+.teamContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.container1{
+    flex: 30%;
+    
+}
+.container2{
+    flex: 30%;
+   
+}
+.container3{
+    flex: 30%;
+    
+}
+
+.avatar{
+    width: 70%;
+    float: right;
+    padding-right: 30%;
+    
+}
+.info{
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.articlesGDSC{
+    margin-top: 2%;
+    background-color: white;
+}
+.articlesGDSC h1{
+    background-color: aliceblue;
+    padding: 5% 0;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+.column {
+    flex: 30%;
+    max-width: 35%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+ .eventsGDSC{
+    background-color: #FFE9AE;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5%;
+ }
+ .video1{
+    flex: 50%;
+    margin-top: 10%;
+    margin-left: 5%;
+ }
+ .video2{
+    flex: 50%;
+    margin-top: 10%;
+    margin-left: 5%;
+ }
+#events h1{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2%;
+}
+#magazines h1{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 2% 0;
+}
+.magazinesGDSC{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+.magazineImage{
+    flex: 50%;
+}
+.magazineImage img{
+    width: 50%;
+    margin: 10%;
+    border-radius: 5px;
+}
+.magazineContent{
+    flex:50%;
+    margin: 10%;
+}
+@media (max-width:768px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .bodyContainer{
+        background-color: aliceblue;
+        padding: 10%;
+        margin: auto;
+      width: 100%;
+      flex: 50%;
+      
+    }
+    .imageContainer{
+        
+        flex:50%;
+    }
+    .imageD{
+        width: 100%;
+    
+    }
+    .teamContainer{
+        display: flex;
+        flex-direction:column;
+        margin-top: 5%;
+    }
+    .container1{
+        flex: 30%;
+        
+    }
+    .container2{
+        flex: 30%;
+       
+    }
+    .container3{
+        flex: 30%;
+        
+    }
+    .avatar{
+        width: 50%;
+        margin-top: 8%;
+        margin-right: 0;
+        
+    }
+    .info{
+        margin: 10%;
+    }
+    .eventsGDSC{
+        background-color: #FFE9AE;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5%;
+     }
+     .video1{
+        flex: 100%;
+        margin-top: 10%;
+        width: 360;
+        height: 115;
+        
+     }
+     .video2{
+        flex: 100%;
+        margin-top: 10%;
+        width: 360;
+        height: 115;
+        
+     }
+     .magazinesGDSC{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+    }
+    .magazineImage{
+        flex: 100%;
+        margin-left: 25%;
+        
+    }
+   
+    .magazineContent{
+        flex:100%;
+
+    }
+    
+}
+@media (max-width: 800px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  

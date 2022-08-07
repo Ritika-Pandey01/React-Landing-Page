@@ -1,0 +1,99 @@
+@media (max-width:768px) {
+    .navbar{
+        margin-bottom: 20px;;
+    }
+    .menu{
+        position:absolute;
+        left: 30px;
+        top:50px;
+        gap:0;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        justify-content: space-between;
+        
+    }
+    .options{
+        margin: 16px 0;
+        padding:3%;
+    }
+    .logoG{
+       margin-left: 30%;
+    }
+    .logo{
+        margin-top:0px;
+    }
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+}
+
+
+
+.home{
+    font-weight: bold;
+}
+
+
+li{
+    list-style: none;
+    padding: 2%;
+}
+.logo{
+    width: 63.070px;
+    height: 51.148px;
+    margin-top: 3px;
+    
+}
+.logoG{
+    width: fit-content;
+    display: flex;
+    color: dimgray;
+    padding-left: 30px;
+}
+
+.logoG h1{
+    padding-top: 8%;
+}
+
+
+.menu{
+    display: flex;
+    gap:1em;
+    padding-right: 50%;
+    
+}
+.options{
+    transition:0.3s ease-out;
+}
+ .options:hover {
+    background-color: #F7F7F7;
+    
+    
+ }
+.navbar{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+   
+} 
+.navLinks{
+    margin-right:10%;
+    padding-top: 1.5%;
+    
+}
+.navLinks a{
+    color: #413F42;
+    
+}

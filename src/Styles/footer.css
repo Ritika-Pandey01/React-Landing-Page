@@ -1,0 +1,117 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-around;
+
+}
+.first{
+    text-align: center;
+    flex: 50%;
+    background-color: white;
+  }
+  .second{
+      margin-left: 100px;
+      text-align: left;
+      background-color: white;
+      flex: 50%;
+      padding-left: 20%;
+      padding-top: 5%;
+  }
+.flex-container>div {
+    background-color: white;
+    width: 500px;
+    margin: 10px;
+    height: 400px;
+    font-size: 30px;
+}
+.footer-heading{
+    margin-left: 20px;
+    color:gray;
+}
+.footer-para{
+    font-size: 16px;
+    text-align:left ;
+    text-align: center;
+    margin-top: 0px;
+    height: 35px;
+}
+.contact-container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-around;
+    font-size: 24px;
+    margin:55px
+}
+.icons:hover{
+    transition: 0.1s ;
+    color:blue;
+    transform: scale(1.3);
+}
+.icons.fa-twitter:hover{
+    color:rgb(18, 176, 197);
+}
+.icons.fa-square-instagram:hover{
+    color:rgba(220, 20, 20, 0.993)
+}
+.icons.fa-youtube:hover{
+     color:red;
+}
+.googleGif{
+padding-left: 40%;    
+
+}
+.logo-heading{
+    margin-top:0px;
+    color:gray;
+}
+.footer-links{
+    text-decoration: none;
+    color:gray;
+    cursor:"pointer";
+}
+.foot-footer{
+    display: flex;
+    font-size: 20px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-around;
+    margin: 0 10px;
+    color:gray;
+}
+.foot1{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.foot2{
+    margin-top:15px;
+}
+
+@media(max-width:768px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .first{
+        text-align: center;
+        flex: 100%;
+        background-color: white;
+      }
+      .second{
+          margin-left: 100px;
+          text-align: center;
+          background-color: white;
+          flex: 100%;
+          padding-left: 0;
+
+      }
+      .googleGif{
+        padding-left: 15%;
+      }
+}
